@@ -1,0 +1,9 @@
+# Wait 60 seconds before connecting using these details, or login to https://console.neo4j.io to validate the Aura Instance is available
+NEO4J_URI=neo4j+s://921e6f9a.databases.neo4j.io
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=tQr_-EKRoD6zV5PhMgA_NqGxJCPkfobZBk140oknFk0
+AURA_INSTANCEID=921e6f9a
+AURA_INSTANCENAME=Instance01
+
+
+MATCH (n1:NUTRITION)-[r]->(n2:MENTAL_HEALTH) RETURN n1, r, n2 LIMIT 10
